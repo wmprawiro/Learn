@@ -3,7 +3,7 @@ public class MethodParameter {
         sayHello("Wahyu", "Maulana");
         sayHello("Handoko", "Kurniawan");
     }
-    static void sayHello(String fName, String lName){
-        System.out.println("Hello " + fName + " " + lName);
+    static void sayHello(String fname, String lName){
+        System.out.println("Hello " + fname + " " + lName);
     }
 }
